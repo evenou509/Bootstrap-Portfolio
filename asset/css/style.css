@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background: url(../image/gravel.png) repeat;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+}
+
+header {
+    background: white;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 35px;
+}
+
+/*.container {
+    width: 960px;
+    margin: 0 auto;
+}*/
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0 auto;
+    padding: 10px
+}
+
+.full {
+    /* width: 960px; */
+    border: 2px solid #cccccc;
+    background: white;
+    padding: 25px;
+    margin-bottom: 95px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777777;
+}
+
+nav a {
+    border-right: 1px solid #cccccc;
+}
+
+nav:last-child a {
+    border-right: none;
+}
+
+/* portfolio*/
+
+
+/* this is the Portfolio page*/
+.portfolio {
+    position: relative;
+    /*background-color: #4aaaa5;*/
+    margin-bottom: 20px;
+    width:45%;
+    float: left; 
+    height: 200px;
+}
+
+.portfolio:nth-of-type(even) {
+    float: right;
+}
+
+/* #item {
+    height: 800px;
+} */
+
+#item1 {
+    background: url(../image/imgport1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-right: 30px; */
+    margin: 0 30px 0 30px;
+}
+
+#item2 {
+        background: url(../image/imgport2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#item3 {
+    background: url(../image/imgport3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-right: 30px; */
+    margin: 0 30px 0 30px;
+}
+
+#item4 {
+    background: url(../image/imgport4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item5 {
+    background: url(../image/imgport5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-right: 30px; */
+    margin: 0 30px 0 30px;
+}
+
+#item6 {
+    background: url(../image/imgport6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 2px;
+    position: absolute;
+    width: 100%;
+}
+
+/* contact page*/
+form label {
+    font-size: 18px;
+    display: block;
+}
+form input, textarea {
+    width: 99%;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+form button {
+    background: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+}
